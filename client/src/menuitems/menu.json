@@ -1,0 +1,8 @@
+[
+    {"id":1, "name":"Pizza", "image":"../menuitems/pizzaitem.jpg"},
+    {"id":2, "name":"Deserts", "image":"./deserts.gif"},
+    {"id":3, "name":"Special Pizza", "image":"./gooeycrust.png"},
+    {"id":4, "name":"Pasta", "image":"./pasta.jpg"},
+    {"id":5, "name":"Soda", "image":"./soda.jpeg"},
+    {"id":6, "name":"Salad", "image":"/salad.jpeg"}
+]

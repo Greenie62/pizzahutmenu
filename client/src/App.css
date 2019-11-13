@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.header, .header-options{
+  display:flex;
+  align-items:center;
+  width:100%;
+}
+
+.header-options{
+  width:35%;
+  justify-content: space-evenly;
+}
+
+
+.header-options > h3{
+  transition:1s;
+  cursor:pointer;
+}
+
+.header-options > h3:hover{
+  color:red;
+}
+
+
+
+.hovermenu-item{
+  list-style:none;
+  padding:1em;
+  width:100px;
+  border-bottom:1px solid gray;
+  position:relative;
+  left:100px;
+  top:-50px;
+  transition:1s;
+  z-index:1;
+}
+
+.hide-hovermenu{
+  display:none;
+  transition:1s;
+}
+
+
+.info-row{
+  background:black;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  width:100%;
+}
+
+.info-row > div{
+  display:flex;
+}
+
+.info-row >div:nth-child(2){
+  margin-right:55px;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.info-row > div > h4{
+  color:yellow;
+  margin-left:5px;
+}
+
+.content-column{
+  width:85%;
+  margin:0 auto;
+  margin-top:15px;
+  position:relative;
+  z-index:-1;
+}
+
+.deals-card-body{
+  display:flex;
+  width:100%;
+}
+
+.deal-div{
+  margin-left:10px;
+  height:300px;
+  width:300px;
+  outline:1px solid lightgray;
+
+}
+
+.order-btn{
+  height:45px;
+  width:95px;
+  font-size:18px;
+  background:red;
+  color:white;
+}
+
+.next-items-div{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.icon-div{
+  cursor:pointer;
+  border-radius:50%;
+  background:red;
+  color:white;
+  padding:.5em;
+}
+
+.next-div{
+ align-items:center;
+  justify-content: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-gap:5px;
+}
+
